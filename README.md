@@ -8,11 +8,11 @@ Full-stack CRUD application for managing notes.
 ## Requirements covered
 
 - Backend REST endpoints:
-  - `GET /notes` — paginated list of notes
-  - `GET /notes/{id}` — get note by ID
-  - `POST /notes` — create note
-  - `PUT /notes/{id}` — update note
-  - `DELETE /notes/{id}` — delete note
+  - `GET /notes` - paginated list of notes
+  - `GET /notes/{id}` - get note by ID
+  - `POST /notes` - create note
+  - `PUT /notes/{id}` - update note
+  - `DELETE /notes/{id}` - delete note
 - PostgreSQL database running in Docker
 - Frontend CRUD UI for notes management
 - State manager: **Zustand**
